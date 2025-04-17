@@ -33,10 +33,13 @@ The project generates the following visualizations:
 
 ## Files in the Repository
 
-- `ipl_data_analysis.py`: The Python script containing the code for data cleaning, analysis, and generation of visualizations.
-- `ipl2024.csv`: The dataset containing the IPL 2024 match data.
-- `graphs/`: Folder containing the generated graphs (histograms, bar plots, etc.).
-- `README.md`: This file with an overview of the project.
+- `all_out.py`: Python script that analyzes the occurrences of all-out teams in both first and second innings.
+- `pointstable.py`: Python script that generates the points table for IPL teams based on match results.
+- `runs_band.py`: Python script that visualizes the distribution of runs scored by teams in various ranges (e.g., 170–200, 200+).
+- `successful_chases.py`: Python script that analyzes successful run chases across different target ranges (170–200 and 200+).
+- `toss.py`: Python script that analyzes toss decisions and their impact on match outcomes (Field vs Batting).
+- `imagespy/`: Folder containing the generated images (graphs, plots, etc.).
+
 
 ## Requirements
 
